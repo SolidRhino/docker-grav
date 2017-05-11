@@ -117,7 +117,7 @@ Using attached storage, you can choose a location for the Grav user files and co
 When configuring attached storage, there are two considerations:
 
 1.  Attached storage must be mounted at `/apps/var` inside the container, whether using the Docker `-v` switch, or `--volumes-from`.
-2. You will need to tell the container to match the user credentials using the `--create-user` switch ([documented here on the Chaperone site](http://garywiz.github.io/chaperone/ref/command-line.html#option-create-user)).
+2. You will need to tell the container to match the user credentials using the `--create-user` switch ([documented here on the Chaperone site](http://solidrhino.github.io/chaperone/ref/command-line.html#option-create-user)).
 
 Both are pretty easy.  For example, assume you are going to store persistent data on your local drive in `/persist/gravsite`.   Providing the directory exists, you can just do this:
 

@@ -1,5 +1,5 @@
 IMAGE_ARCH=U14
 IMAGE_VERSION=1.0.10
-IMAGE_NAME=garywiz/docker-grav
+IMAGE_NAME=solidrhino/docker-grav
 GRAV_VERSION=X.X.X
 export GRAV_VERSION
